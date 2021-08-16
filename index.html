@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSR-Weather</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+	<div class="main container-fluid">
+		<div class="shadow">
+			<div class="mid container">
+			<form action="">
+				<input type="text" class="input1 form-control" placeholder="Enter a City:" id="enter">
+				<input type="submit" class="input2 btn btn-success form-control" id="submit">
+			</form>
+			
+				<div class="dataa shadow-sm p-3 mb-5 bg-body rounded">
+					<img class="icon center" src="images/weather.png" alt="">
+					<h3 id="city">Enter City</h3>
+					<h2><span id="temp">0</span>&deg;C</h2>
+					<h4 id="des">Feels Like: <span id="feelslike">2</span>&deg;C<br>
+								Highest Temperature: <span id="ht"></span>&deg;C<br>
+								Lowest Temperature: <span id="lt"></span>&deg;C<br>
+								Wind speed: <span id="ws"></span> KMpH<br>
+								Sunrise: <span id="sr"></span><br>
+								Sunset: <span id="ss"></span><br>
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script>
+
+	</script>
+	<script src="index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

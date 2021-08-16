@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	background-image: url(images/ab.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden;
+}
+
+/*.shadow {
+	width: 100%;
+	height: 100vh;
+	background-color: red;
+	opacity: 0.1;
+	z-index: 35;
+}*/
+
+.mid {
+	width: 100%;
+	height: 100vh;
+}
+.input1 {
+	margin-top: 50px;
+}
+.input2 {
+	margin-top: 10px;
+}
+.icon {
+	width: 80px;
+	height: 50px;
+	margin-left: 510px !important;
+}
+h2,h3,h4 {
+	color: white;
+	text-align: center;
+}
+
+.dataa {
+	margin-top: 80px;
+	border: 1px solid white;
+	padding: 5px;
+}
